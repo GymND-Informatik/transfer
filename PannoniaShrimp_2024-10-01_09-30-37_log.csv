@@ -1,0 +1,78 @@
+﻿[filetype:logbook]
+Timestamp;Log level;Log message
+2024-10-01 09:30:37;SYSTEM;Measurement suspended.
+2024-10-01 09:44:28;SYSTEM;Writing initial configuration
+2024-10-01 09:44:28;SYSTEM;NetworkHandler initialized
+2024-10-01 09:44:28;SYSTEM;[Init] Network Handler
+2024-10-01 09:44:42;SYSTEM;[Init] SMS Handler
+2024-10-01 09:44:42;SYSTEM;[Init] Modem Handler
+2024-10-01 09:44:42;SYSTEM;[Init] Display Handler
+2024-10-01 09:44:42;SYSTEM;[Init] Wifi Handler
+2024-10-01 09:44:50;SYSTEM;starting watchdog service
+2024-10-01 09:44:50;SYSTEM;starting watchdog service
+2024-10-01 09:44:50;SYSTEM;s::can watchdog service started.
+2024-10-01 09:44:51;SYSTEM;estimated disk life time of storage disk: eMMC Firmware Version: 73103517%P
+eMMC Life Time Estimation A [EXT_CSD_DEVICE_LIFE_TIME_EST_TYP_A]: 0x01
+eMMC Life Time Estimation B [EXT_CSD_DEVICE_LIFE_TIME_EST_TYP_B]: 0x01
+eMMC Pre EOL information [EXT_CSD_PRE_EOL_INFO]: 0x01
+2024-10-01 09:44:51;SYSTEM;s::can training service started.
+2024-10-01 09:44:51;SYSTEM;starting training service
+2024-10-01 09:44:52;SYSTEM;s::can soap service started.
+2024-10-01 09:44:52;SYSTEM;Measurement resumed.
+2024-10-01 09:45:03;SYSTEM;s::can scada service started with Version 4.7.4-131-g98c0ccdd.
+2024-10-01 09:45:05;SYSTEM;Model= D-330.
+2024-10-01 09:45:05;SYSTEM;serialNo= 3231313533363230 (21153620).
+2024-10-01 09:45:41;SYSTEM;UpdateStationThread(): Thread started.
+2024-10-01 09:45:41;SYSTEM;UpdateStationThread(): Thread stopped.
+2024-10-01 09:45:41;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":5.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-06-04 10:49:00"}
+2024-10-01 09:45:46;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-01 09:45:47;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 35 seconds.
+2024-10-01 09:46:11;SYSTEM;starting OpenVPN instance for profile OpenVPN_30000
+2024-10-01 09:46:11;SYSTEM;[Init] VPN Handler
+2024-10-01 09:46:11;SYSTEM;[Init] Firewall Handler
+2024-10-01 09:46:14;SYSTEM;VNC Service is now Disabled
+2024-10-01 09:46:14;SYSTEM;Entering SOAP Listener loop
+2024-10-01 09:46:29;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-10-01 09:46:34;SYSTEM;Measurement suspended.
+2024-10-01 10:20:59;SYSTEM;Measurement resumed.
+2024-10-01 10:21:02;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-01 10:21:03;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 28 seconds.
+2024-10-01 10:21:03;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":5.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-06-04 10:49:00"}
+2024-10-01 10:21:55;SYSTEM;Measurement suspended.
+2024-10-01 10:22:30;SYSTEM;Measurement resumed.
+2024-10-01 10:22:31;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 55 seconds.
+2024-10-01 10:22:31;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":5.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-06-04 10:49:00"}
+2024-10-01 11:08:06;USER;User "Administrator" from 127.0.0.1 logged out.
+2024-10-01 13:03:08;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-10-01 13:03:13;SYSTEM;Measurement suspended.
+2024-10-01 13:03:23;SYSTEM;Measurement resumed.
+2024-10-01 13:03:24;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 13 seconds.
+2024-10-01 13:03:24;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":5.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-06-04 10:49:00"}
+2024-10-01 14:04:55;SYSTEM;Login of user "Administrator" timed out.
+2024-10-02 11:37:00;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 623 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-10-03 12:53:00;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 630 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-10-04 14:09:00;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 636 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-10-05 15:25:00;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 642 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-10-06 16:41:01;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 649 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-10-07 17:57:00;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 655 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-10-08 19:13:00;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 661 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.

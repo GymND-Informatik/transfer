@@ -1,0 +1,124 @@
+﻿[filetype:logbook]
+Timestamp;Log level;Log message
+2024-09-04 09:41:17;SYSTEM;Measurement suspended.
+2024-09-04 09:43:31;SYSTEM;stopping watchdog service
+2024-09-04 09:47:32;SYSTEM;Writing initial configuration
+2024-09-04 09:47:32;SYSTEM;NetworkHandler initialized
+2024-09-04 09:47:32;SYSTEM;[Init] Network Handler
+2024-09-04 09:47:46;SYSTEM;[Init] Modem Handler
+2024-09-04 09:47:46;SYSTEM;[Init] SMS Handler
+2024-09-04 09:47:46;SYSTEM;[Init] Wifi Handler
+2024-09-04 09:47:46;SYSTEM;[Init] Display Handler
+2024-09-04 09:47:54;SYSTEM;starting watchdog service
+2024-09-04 09:47:54;SYSTEM;starting watchdog service
+2024-09-04 09:47:54;SYSTEM;s::can watchdog service started.
+2024-09-04 09:47:55;SYSTEM;s::can training service started.
+2024-09-04 09:47:55;SYSTEM;starting training service
+2024-09-04 09:47:55;SYSTEM;estimated disk life time of storage disk: eMMC Firmware Version: 73103517%P
+eMMC Life Time Estimation A [EXT_CSD_DEVICE_LIFE_TIME_EST_TYP_A]: 0x01
+eMMC Life Time Estimation B [EXT_CSD_DEVICE_LIFE_TIME_EST_TYP_B]: 0x01
+eMMC Pre EOL information [EXT_CSD_PRE_EOL_INFO]: 0x01
+2024-09-04 09:47:56;SYSTEM;Measurement resumed.
+2024-09-04 09:47:56;SYSTEM;s::can soap service started.
+2024-09-04 09:48:07;SYSTEM;s::can scada service started with Version 4.7.4-131-g98c0ccdd.
+2024-09-04 09:48:09;SYSTEM;serialNo= 3231313533363230 (21153620).
+2024-09-04 09:48:09;SYSTEM;Model= D-330.
+2024-09-04 09:48:46;SYSTEM;UpdateStationThread(): Thread stopped.
+2024-09-04 09:48:46;SYSTEM;UpdateStationThread(): Thread started.
+2024-09-04 09:48:46;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":5.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-06-04 10:49:00"}
+2024-09-04 09:48:49;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 55 seconds.
+2024-09-04 09:49:15;SYSTEM;starting OpenVPN instance for profile OpenVPN_30000
+2024-09-04 09:49:15;SYSTEM;[Init] VPN Handler
+2024-09-04 09:49:15;SYSTEM;[Init] Firewall Handler
+2024-09-04 09:49:18;SYSTEM;VNC Service is now Disabled
+2024-09-04 09:49:18;SYSTEM;Entering SOAP Listener loop
+2024-09-04 09:51:24;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-09-04 10:36:10;USER;User "Administrator" from 127.0.0.1 logged out.
+2024-09-04 11:16:48;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-09-04 11:17:25;SYSTEM;Measurement suspended.
+2024-09-04 11:23:44;SYSTEM;Measurement resumed.
+2024-09-04 11:23:44;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 117 seconds.
+2024-09-04 11:23:44;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":5.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-06-04 10:49:00"}
+2024-09-04 11:26:55;SYSTEM;Calibration information update for parameter "pH".
+
+2024-09-04 11:28:08;USER;User "Administrator" from 127.0.0.1 logged out.
+2024-09-05 11:12:58;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 460 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-06 12:28:57;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 466 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-07 13:45:00;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 473 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-08 15:01:00;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 479 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-09 16:17:00;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 485 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-10 17:33:01;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 492 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-11 18:49:00;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 498 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-12 20:04:57;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 504 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-13 21:20:57;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 511 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-14 22:36:57;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 517 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-15 23:53:00;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 523 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-17 01:09:01;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 530 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-18 02:24:57;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 536 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-19 03:40:57;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 542 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-20 04:56:57;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 549 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-21 06:12:56;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 555 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-22 07:28:57;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 561 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-23 08:44:57;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 568 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-23 13:15:38;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-09-23 14:18:52;SYSTEM;Login of user "Administrator" timed out.
+2024-09-24 10:00:57;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 574 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-25 11:16:58;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 581 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-26 12:32:57;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 587 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-26 14:06:14;SYSTEM;Received SMS from Magenta
+2024-09-26 14:06:14;SYSTEM;Remote command not implemented
+2024-09-26 14:08:30;SYSTEM;Sending reply SMS failed
+2024-09-26 14:08:30;SYSTEM;Received SMS from Magenta
+2024-09-26 14:08:30;SYSTEM;Remote command not implemented
+2024-09-26 14:10:45;SYSTEM;Sending reply SMS failed
+2024-09-27 13:48:56;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 593 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-28 15:04:57;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 600 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-29 16:21:00;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 606 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-09-29 22:34:04;SYSTEM;Received SMS from Magenta
+2024-09-29 22:34:04;SYSTEM;Remote command not implemented
+2024-09-29 22:36:19;SYSTEM;Sending reply SMS failed
+2024-09-29 22:36:19;SYSTEM;Received SMS from Magenta
+2024-09-29 22:36:19;SYSTEM;Remote command not implemented
+2024-09-29 22:38:34;SYSTEM;Sending reply SMS failed
+2024-09-30 07:43:19;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-09-30 07:43:26;SYSTEM;Measurement suspended.
+2024-09-30 07:43:39;SYSTEM;Measurement resumed.
+2024-09-30 07:43:42;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 113 seconds.
+2024-09-30 07:43:42;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":5.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-06-04 10:49:00"}
+2024-09-30 07:43:50;SYSTEM;Measurement suspended.
+2024-09-30 07:43:59;SYSTEM;Measurement resumed.
+2024-09-30 07:44:02;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 88 seconds.
+2024-09-30 07:44:02;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":5.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-06-04 10:49:00"}
+2024-09-30 08:44:52;SYSTEM;Login of user "Administrator" timed out.
+2024-09-30 17:38:57;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 613 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-10-01 08:22:47;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-10-01 08:45:15;SYSTEM;Measurement suspended.
+2024-10-01 08:47:06;SYSTEM;Measurement resumed.
+2024-10-01 08:47:07;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 72 seconds.
+2024-10-01 08:47:07;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":5.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-06-04 10:49:00"}
+2024-10-01 09:08:54;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 642, n= 120, ret= MB_EIO).

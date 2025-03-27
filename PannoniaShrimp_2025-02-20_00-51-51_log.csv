@@ -1,0 +1,78 @@
+﻿[filetype:logbook]
+Timestamp;Log level;Log message
+2025-02-20 00:51:51;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 118 seconds.
+2025-02-20 01:03:19;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 99 seconds.
+2025-02-20 01:12:48;SYSTEM;stopping watchdog service
+2025-02-20 01:12:49;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 37 seconds.
+2025-02-20 01:13:52;SYSTEM;Writing initial configuration
+2025-02-20 01:13:52;SYSTEM;NetworkHandler initialized
+2025-02-20 01:13:52;SYSTEM;[Init] Network Handler
+2025-02-20 01:14:06;SYSTEM;[Init] Modem Handler
+2025-02-20 01:14:06;SYSTEM;[Init] SMS Handler
+2025-02-20 01:14:06;SYSTEM;[Init] Display Handler
+2025-02-20 01:14:06;SYSTEM;[Init] Wifi Handler
+2025-02-20 01:14:14;SYSTEM;starting watchdog service
+2025-02-20 01:14:14;SYSTEM;starting watchdog service
+2025-02-20 01:14:14;SYSTEM;s::can watchdog service started.
+2025-02-20 01:14:15;SYSTEM;s::can training service started.
+2025-02-20 01:14:15;SYSTEM;estimated disk life time of storage disk: eMMC Firmware Version: 73103517%P
+eMMC Life Time Estimation A [EXT_CSD_DEVICE_LIFE_TIME_EST_TYP_A]: 0x01
+eMMC Life Time Estimation B [EXT_CSD_DEVICE_LIFE_TIME_EST_TYP_B]: 0x01
+eMMC Pre EOL information [EXT_CSD_PRE_EOL_INFO]: 0x01
+2025-02-20 01:14:15;SYSTEM;starting training service
+2025-02-20 01:14:16;SYSTEM;s::can soap service started.
+2025-02-20 01:14:27;SYSTEM;s::can scada service started with Version 4.7.4-131-g98c0ccdd.
+2025-02-20 01:14:29;SYSTEM;Model= D-330.
+2025-02-20 01:14:29;SYSTEM;serialNo= 3231313533363230 (21153620).
+2025-02-20 01:14:34;SYSTEM;starting OpenVPN instance for profile OpenVPN_30000
+2025-02-20 01:14:34;SYSTEM;[Init] VPN Handler
+2025-02-20 01:14:34;SYSTEM;[Init] Firewall Handler
+2025-02-20 01:14:37;SYSTEM;VNC Service is now Disabled
+2025-02-20 01:14:37;SYSTEM;Entering SOAP Listener loop
+2025-02-20 01:15:05;SYSTEM;UpdateStationThread(): Thread started.
+2025-02-20 01:15:05;SYSTEM;UpdateStationThread(): Thread stopped.
+2025-02-20 01:15:05;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400210","version":"4.60 4.2-12","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-12-04T09:09:53.542Z"}
+2025-02-20 01:15:13;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 0 seconds.
+2025-02-20 12:19:14;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-02-20 12:49:35;USER;User "Administrator" from 127.0.0.1 logged out.
+2025-02-20 17:49:38;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-15T11:14:01Z done. Deleted 14402 parameter measurement data rows
+2025-02-20 17:49:39;SYSTEM;gc.exe: 14402 entries of backend database have been cleaned.
+2025-02-20 17:50:49;SYSTEM;gc.exe: 13035 entries of frontend database have been cleaned.
+2025-02-21 00:13:50;CRITICAL;GSM_GetNetworkInfo failed with error code 14, SMSHandler restarted
+2025-02-21 10:23:38;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-16T12:30:01Z done. Deleted 14402 parameter measurement data rows
+2025-02-21 10:23:38;SYSTEM;gc.exe: 14402 entries of backend database have been cleaned.
+2025-02-21 10:24:49;SYSTEM;gc.exe: 13271 entries of frontend database have been cleaned.
+2025-02-21 11:23:45;SYSTEM;Received SMS from 6700
+2025-02-21 11:23:45;SYSTEM;Remote command not implemented
+2025-02-21 11:24:00;SYSTEM;Received SMS from 677
+2025-02-21 11:24:00;SYSTEM;Remote command not implemented
+2025-02-21 11:24:05;SYSTEM;Sending reply SMS failed
+2025-02-21 13:02:05;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-02-21 13:09:07;SYSTEM;Measurement suspended.
+2025-02-21 13:11:44;SYSTEM;Measurement resumed.
+2025-02-21 13:11:45;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 81 seconds.
+2025-02-21 13:11:45;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400210","version":"4.60 4.2-12","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-12-04T09:09:53.542Z"}
+2025-02-21 14:26:56;SYSTEM;Login of user "Administrator" timed out.
+2025-02-22 02:59:39;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-17T14:18:01Z done. Deleted 14418 parameter measurement data rows
+2025-02-22 02:59:39;SYSTEM;gc.exe: 14418 entries of backend database have been cleaned.
+2025-02-22 03:00:52;SYSTEM;gc.exe: 13414 entries of frontend database have been cleaned.
+2025-02-22 19:33:39;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-18T15:34:01Z done. Deleted 14402 parameter measurement data rows
+2025-02-22 19:33:39;SYSTEM;gc.exe: 14402 entries of backend database have been cleaned.
+2025-02-22 19:34:51;SYSTEM;gc.exe: 13383 entries of frontend database have been cleaned.
+2025-02-23 12:07:40;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-19T16:50:01Z done. Deleted 14402 parameter measurement data rows
+2025-02-23 12:07:40;SYSTEM;gc.exe: 14402 entries of backend database have been cleaned.
+2025-02-23 12:08:51;SYSTEM;gc.exe: 13724 entries of frontend database have been cleaned.

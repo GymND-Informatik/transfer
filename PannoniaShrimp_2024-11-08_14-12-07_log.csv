@@ -1,0 +1,779 @@
+﻿[filetype:logbook]
+Timestamp;Log level;Log message
+2024-11-08 14:12:07;USER;Re-owned sensor url rest_tcp://https/192.168.42.10:443 restTcp set terminalId to 21153620,
+2024-11-08 14:12:28;CRITICAL;GSM_GetNetworkInfo failed with error code 16, SMSHandler restarted
+2024-11-08 14:12:28;SYSTEM;Could not retrieve modem status
+2024-11-08 14:12:28;CRITICAL;GSM_GetNetworkInfo failed with error code 16 after SMSHandler restart
+2024-11-08 14:13:13;SYSTEM;Measurement suspended.
+2024-11-08 14:17:14;SYSTEM;stopping watchdog service
+2024-11-08 14:19:14;SYSTEM;Writing initial configuration
+2024-11-08 14:19:14;SYSTEM;NetworkHandler initialized
+2024-11-08 14:19:14;SYSTEM;[Init] Network Handler
+2024-11-08 14:19:28;SYSTEM;[Init] Display Handler
+2024-11-08 14:19:28;SYSTEM;[Init] SMS Handler
+2024-11-08 14:19:28;SYSTEM;[Init] Modem Handler
+2024-11-08 14:19:28;SYSTEM;[Init] Wifi Handler
+2024-11-08 14:19:36;SYSTEM;starting watchdog service
+2024-11-08 14:19:36;SYSTEM;starting watchdog service
+2024-11-08 14:19:36;SYSTEM;s::can watchdog service started.
+2024-11-08 14:19:37;SYSTEM;starting training service
+2024-11-08 14:19:37;SYSTEM;estimated disk life time of storage disk: eMMC Firmware Version: 73103517%P
+eMMC Life Time Estimation A [EXT_CSD_DEVICE_LIFE_TIME_EST_TYP_A]: 0x01
+eMMC Life Time Estimation B [EXT_CSD_DEVICE_LIFE_TIME_EST_TYP_B]: 0x01
+eMMC Pre EOL information [EXT_CSD_PRE_EOL_INFO]: 0x01
+2024-11-08 14:19:37;SYSTEM;s::can training service started.
+2024-11-08 14:19:38;SYSTEM;s::can soap service started.
+2024-11-08 14:19:38;SYSTEM;Measurement resumed.
+2024-11-08 14:19:49;SYSTEM;s::can scada service started with Version 4.7.4-131-g98c0ccdd.
+2024-11-08 14:19:51;SYSTEM;serialNo= 3231313533363230 (21153620).
+2024-11-08 14:19:51;SYSTEM;Model= D-330.
+2024-11-08 14:19:56;SYSTEM;[Init] Firewall Handler
+2024-11-08 14:19:56;SYSTEM;[Init] VPN Handler
+2024-11-08 14:19:56;SYSTEM;starting OpenVPN instance for profile OpenVPN_30000
+2024-11-08 14:19:59;SYSTEM;VNC Service is now Disabled
+2024-11-08 14:19:59;SYSTEM;Entering SOAP Listener loop
+2024-11-08 14:20:27;SYSTEM;UpdateStationThread(): Thread stopped.
+2024-11-08 14:20:27;SYSTEM;UpdateStationThread(): Thread started.
+2024-11-08 14:20:27;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400209","version":"4.60 3.14-4","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-11-08T12:26:59.666Z"}
+2024-11-08 14:20:34;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 74 seconds.
+2024-11-08 14:21:04;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-11-08 14:21:17;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 29 seconds.
+2024-11-08 14:21:22;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 23 seconds.
+2024-11-08 14:23:20;SYSTEM;Measurement suspended.
+2024-11-08 14:25:11;SYSTEM;Measurement resumed.
+2024-11-08 14:25:12;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 29 seconds.
+2024-11-08 14:25:12;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400209","version":"4.60 3.14-4","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-11-08T12:26:59.666Z"}
+2024-11-08 14:26:11;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-11-08 14:27:10;SYSTEM;Measurement suspended.
+2024-11-08 14:31:59;SYSTEM;Measurement resumed.
+2024-11-08 14:32:00;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 101 seconds.
+2024-11-08 14:32:00;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400209","version":"4.60 3.14-4","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-11-08T12:26:59.666Z"}
+2024-11-08 15:13:43;USER;User "Administrator" from 127.0.0.1 logged out.
+2024-11-08 15:46:19;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-11-08 15:47:07;SYSTEM;Measurement suspended.
+2024-11-08 15:47:19;SYSTEM;Measurement resumed.
+2024-11-08 15:47:23;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 23 seconds.
+2024-11-08 15:47:23;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400209","version":"4.60 3.14-4","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-11-08T12:26:59.666Z"}
+2024-11-08 16:48:55;SYSTEM;Login of user "Administrator" timed out.
+2024-11-09 07:03:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 932 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-09 23:37:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 938 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-10 16:11:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 944 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-11 08:45:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 951 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-12 01:19:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 958 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-12 17:53:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 964 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-13 10:27:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 971 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-14 03:01:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 977 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-14 19:35:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 984 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-15 12:09:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 991 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-16 04:43:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 997 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-16 21:17:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1004 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-17 13:51:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1011 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-18 06:25:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1017 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-18 16:43:23;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-11-18 17:26:52;USER;User "Administrator" from 127.0.0.1 logged out.
+2024-11-18 22:59:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1024 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-19 15:33:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1031 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-20 08:07:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1037 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-21 00:41:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1044 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-21 17:15:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1050 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-22 09:49:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1057 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-23 02:23:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1063 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-23 18:57:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1070 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-24 11:31:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1077 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-25 04:05:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1083 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-25 16:08:32;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-11-25 17:10:55;SYSTEM;Login of user "Administrator" timed out.
+2024-11-25 20:39:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1090 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-26 10:19:58;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-11-26 10:20:08;SYSTEM;Measurement suspended.
+2024-11-26 10:28:27;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-11-26 10:30:19;USER;Re-owned sensor url rest_tcp://https/192.168.42.10:443 restTcp set terminalId to 21153620,
+2024-11-26 10:35:01;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-11-26 10:39:20;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-11-26 10:41:01;SYSTEM;Measurement resumed.
+2024-11-26 10:41:04;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 42 seconds.
+2024-11-26 10:41:04;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400209","version":"4.60 3.14-4","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-11-08T12:26:59.666Z"}
+2024-11-26 10:42:58;SYSTEM;Calibration information update for parameter "HS-".
+
+2024-11-26 10:42:59;SYSTEM;Calibration information update for parameter "NO3-Neq".
+
+2024-11-26 10:42:59;SYSTEM;Calibration information update for parameter "HS-".
+
+2024-11-26 10:43:00;SYSTEM;Calibration information update for parameter "Ozone".
+
+2024-11-26 10:43:00;SYSTEM;Calibration information update for parameter "UV254t".
+
+2024-11-26 10:43:00;SYSTEM;Calibration information update for parameter "TOCeq".
+
+2024-11-26 10:43:01;SYSTEM;Calibration information update for parameter "NO3-Neq".
+
+2024-11-26 10:43:01;SYSTEM;Calibration information update for parameter "TURBest - FTU (39)".
+
+2024-11-26 10:43:02;SYSTEM;Calibration information update for parameter "Chl-A".
+
+2024-11-26 10:49:38;SYSTEM;Measurement suspended.
+2024-11-26 10:55:11;SYSTEM;Measurement resumed.
+2024-11-26 10:55:11;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 30 seconds.
+2024-11-26 10:55:11;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400209","version":"4.60 3.14-4","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-11-08T12:26:59.666Z"}
+2024-11-26 10:56:59;SYSTEM;Calibration information update for parameter "NO3-Neq".
+
+2024-11-26 10:57:56;SYSTEM;Measurement suspended.
+2024-11-26 10:59:32;SYSTEM;Measurement resumed.
+2024-11-26 10:59:33;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 8 seconds.
+2024-11-26 10:59:33;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400209","version":"4.60 3.14-4","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-11-08T12:26:59.666Z"}
+2024-11-26 11:00:58;SYSTEM;Calibration information update for parameter "TOCeq".
+
+2024-11-26 11:03:24;SYSTEM;Measurement suspended.
+2024-11-26 11:04:37;SYSTEM;Measurement resumed.
+2024-11-26 11:04:38;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 63 seconds.
+2024-11-26 11:04:38;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400209","version":"4.60 3.14-4","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-11-08T12:26:59.666Z"}
+2024-11-26 11:07:00;SYSTEM;Calibration information update for parameter "TURBest - FTU (39)".
+
+2024-11-26 12:04:56;SYSTEM;Login of user "Administrator" timed out.
+2024-11-26 13:43:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1096 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-27 06:17:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1103 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-27 22:51:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1109 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-28 13:06:20;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-11-28 13:07:04;SYSTEM;Measurement suspended.
+2024-11-28 13:08:09;SYSTEM;Measurement resumed.
+2024-11-28 13:08:10;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 92 seconds.
+2024-11-28 13:08:10;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400209","version":"4.60 3.14-4","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-11-08T12:26:59.666Z"}
+2024-11-28 14:08:56;SYSTEM;Login of user "Administrator" timed out.
+2024-11-28 15:27:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1115 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-29 08:01:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1122 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-30 00:35:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1129 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-11-30 17:09:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1135 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-01 09:43:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1142 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-02 02:17:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1148 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-02 18:51:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1155 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-03 11:25:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1162 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-04 03:59:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1168 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-04 08:32:20;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-12-04 09:33:11;SYSTEM;Measurement suspended.
+2024-12-04 09:33:20;SYSTEM;Measurement resumed.
+2024-12-04 09:33:24;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 15 seconds.
+2024-12-04 09:33:25;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400209","version":"4.60 3.14-4","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-11-08T12:26:59.666Z"}
+2024-12-04 11:37:36;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-12-04 11:37:36;SYSTEM;Login of user "Administrator" timed out.
+2024-12-04 11:37:39;SYSTEM;Measurement suspended.
+2024-12-04 11:44:31;CRITICAL;CRESTHelper::Get(): curl_easy_perform() failed (url= rest_tcp://https/192.168.42.10:443, name= restTcp, start_url= https://192.168.42.10:443/api/v1.0/Login ret= Couldn't connect to server (0).
+2024-12-04 11:44:34;CRITICAL;CRESTHelper::Get(): curl_easy_perform() failed (url= rest_tcp://https/192.168.42.10:443, name= restTcp, start_url= https://192.168.42.10:443/api/v1.0/Login ret= Couldn't connect to server (0).
+2024-12-04 11:44:51;CRITICAL;CRESTHelper::Get(): curl_easy_perform() failed (url= rest_tcp://https/192.168.42.11:443, name= restTcp, start_url= https://192.168.42.11:443/api/v1.0/Login ret= Couldn't connect to server (0).
+2024-12-04 11:44:54;CRITICAL;CRESTHelper::Get(): curl_easy_perform() failed (url= rest_tcp://https/192.168.42.11:443, name= restTcp, start_url= https://192.168.42.11:443/api/v1.0/Login ret= Couldn't connect to server (0).
+2024-12-04 11:58:11;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:11;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:11;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/1, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:11;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/1, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:12;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/2, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:12;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/2, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:12;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/2, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:12;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/2, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:12;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/3, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:13;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/3, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_ADDRESS).
+2024-12-04 11:58:13;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/3, name= oxi-soliV1, ret= MB_EX_ILLEGAL_FUNCTION).
+2024-12-04 11:58:13;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/4, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:13;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/4, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:13;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/4, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:13;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:14;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/5, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:14;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/6, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:14;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/6, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_VALUE).
+2024-12-04 11:58:14;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/7, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:14;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/7, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_ADDRESS).
+2024-12-04 11:58:15;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/7, name= oxi-soliV1, ret= MB_EX_ILLEGAL_FUNCTION).
+2024-12-04 11:58:15;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/8, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:15;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/8, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:15;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/8, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:15;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/8, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:16;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/9, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:16;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/9, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:16;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/9, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:16;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/9, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:17;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/10, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:17;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/10, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:17;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/10, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:17;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/10, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:17;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/11, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:18;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/11, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:18;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/11, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:18;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/11, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:18;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/12, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:19;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/12, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:19;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/12, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:19;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/12, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:19;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/13, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:19;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/13, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:20;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/13, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:20;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/13, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:20;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/14, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:20;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/14, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:20;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/14, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:21;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/14, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:21;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/15, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:21;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/15, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:21;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/15, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:22;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/15, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:22;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/16, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:22;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/16, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:22;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/16, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:22;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/16, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:23;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/17, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:23;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/17, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:23;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/17, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:23;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/17, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:24;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/18, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:24;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/18, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:24;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/18, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:24;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/18, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:24;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/19, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:25;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/19, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:25;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/19, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:25;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/19, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:25;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/20, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:25;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/20, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:26;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/20, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:26;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/20, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:30;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:31;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:31;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/1, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:31;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:36;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/3, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_ADDRESS).
+2024-12-04 11:58:36;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/3, name= oxi-soliV1, ret= MB_EX_ILLEGAL_FUNCTION).
+2024-12-04 11:58:36;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/3, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:41;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:42;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:42;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/1, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:42;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:45;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/5, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:49;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/6, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:49;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/6, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_VALUE).
+2024-12-04 11:58:53;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/7, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 11:58:53;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/7, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_ADDRESS).
+2024-12-04 11:58:53;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/7, name= oxi-soliV1, ret= MB_EX_ILLEGAL_FUNCTION).
+2024-12-04 12:01:06;CRITICAL;CRESTHelper::Get(): curl_easy_perform() failed (url= rest_tcp://https/192.168.42.10:443, name= restTcp, start_url= https://192.168.42.10:443/api/v1.0/Login ret= Couldn't connect to server (0).
+2024-12-04 12:01:55;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:01:55;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:01:56;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/1, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:01:56;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/1, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:01:56;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/2, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:01:56;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/2, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:01:57;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/2, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:01:57;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/2, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:01:57;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/3, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:01:57;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/3, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_ADDRESS).
+2024-12-04 12:01:57;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/3, name= oxi-soliV1, ret= MB_EX_ILLEGAL_FUNCTION).
+2024-12-04 12:01:57;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/4, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:01:58;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/4, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:01:58;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/4, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:01:58;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:01:58;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/5, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:27;CRITICAL;CRESTHelper::Get(): curl_easy_perform() failed (url= rest_tcp://https/192.168.42.10:443, name= restTcp, start_url= https://192.168.42.10:443/api/v1.0/Login ret= Couldn't connect to server (0).
+2024-12-04 12:02:30;CRITICAL;CRESTHelper::Get(): curl_easy_perform() failed (url= rest_tcp://https/192.168.42.10:443, name= restTcp, start_url= https://192.168.42.10:443/api/v1.0/Login ret= Couldn't connect to server (0).
+2024-12-04 12:02:43;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:43;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:44;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/1, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:44;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/1, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:44;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/2, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:44;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/2, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:45;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/2, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:45;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/2, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:45;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/3, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:45;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/3, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_ADDRESS).
+2024-12-04 12:02:45;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/3, name= oxi-soliV1, ret= MB_EX_ILLEGAL_FUNCTION).
+2024-12-04 12:02:45;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/4, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:46;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/5, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:46;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/4, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:46;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/4, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:46;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:47;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/6, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_VALUE).
+2024-12-04 12:02:47;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/6, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:47;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/7, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:47;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/7, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_ADDRESS).
+2024-12-04 12:02:47;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/7, name= oxi-soliV1, ret= MB_EX_ILLEGAL_FUNCTION).
+2024-12-04 12:02:47;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/8, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:48;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/9, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:48;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/8, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:48;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/8, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:48;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/8, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:48;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/9, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:49;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/10, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:49;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/9, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:49;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/9, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:49;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/10, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:50;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/11, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:50;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/10, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:50;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/10, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:50;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/11, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:50;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/11, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:51;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/12, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:51;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/11, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:51;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/12, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:51;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/12, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:51;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/12, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:52;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/13, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:52;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/13, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:52;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/13, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:52;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/13, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:53;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/14, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:53;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/14, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:53;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/14, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:53;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/14, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:53;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/15, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:54;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/15, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:54;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/15, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:54;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/15, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:54;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/16, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:55;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/17, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:55;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/16, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:55;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/16, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:55;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/16, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:55;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/17, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:56;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/18, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:56;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/17, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:56;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/17, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:56;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/18, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:56;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/18, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:57;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/19, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:57;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/18, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:57;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/19, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:57;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/19, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:58;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/20, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:58;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/19, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:58;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/20, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:58;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/20, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:02:58;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/20, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:04;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:04;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:04;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:04;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/1, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:14;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:15;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/1, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:15;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:15;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/2, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:15;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:16;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/3, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:16;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/2, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:16;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/2, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:16;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/2, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:16;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/3, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:17;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/5, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:17;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/3, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:17;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/3, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:17;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:17;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= conduV2, start= 1319, n= 8, ret= MB_EIO).
+2024-12-04 12:03:17;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/4, name= oxi-soliV1, ret= MB_EX_ILLEGAL_FUNCTION).
+2024-12-04 12:03:18;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/5, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:18;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/5, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:18;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/5, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:18;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/6, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:19;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/7, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:19;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/6, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:19;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/6, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:19;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/6, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:19;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/7, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:20;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/8, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:20;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/7, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:20;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/7, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:20;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/8, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:20;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/8, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:21;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/9, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:21;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/8, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:21;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/9, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:21;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/9, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:22;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/10, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:22;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/9, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:22;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/10, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:22;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/10, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:22;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/10, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:23;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/11, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:23;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/11, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:23;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/11, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:23;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/11, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:24;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/13, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:24;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/12, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:24;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/12, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:24;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/12, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:24;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/12, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:25;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/13, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:25;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/13, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:25;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/13, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:25;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/14, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:25;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/14, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:26;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/3, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_ADDRESS).
+2024-12-04 12:03:26;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/14, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:26;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/14, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:26;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/15, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:26;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/15, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:26;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/3, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:26;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/3, name= oxi-soliV1, ret= MB_EX_ILLEGAL_FUNCTION).
+2024-12-04 12:03:27;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/15, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:27;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/15, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:30;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/5, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:34;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/6, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:34;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/6, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_VALUE).
+2024-12-04 12:03:37;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/7, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:38;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/7, name= oxi-soliV1, ret= MB_EX_ILLEGAL_FUNCTION).
+2024-12-04 12:03:38;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/7, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_ADDRESS).
+2024-12-04 12:03:44;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:03:45;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/4, name= oxi-soliV1, ret= MB_EX_ILLEGAL_FUNCTION).
+2024-12-04 12:03:49;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/1, name= oxi-soliV1, ret= MB_EX_ILLEGAL_FUNCTION).
+2024-12-04 12:03:49;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-12-04 12:07:41;SYSTEM;Inconsistency Error: Could not save all sensor extensions for  "rest_tcp://https/192.168.42.10:443".
+
+2024-12-04 12:07:58;SYSTEM;Measurement resumed.
+2024-12-04 12:07:58;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 96 seconds.
+2024-12-04 12:07:58;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400210","version":"4.60 4.2-12","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-12-04T09:09:53.542Z"}
+2024-12-04 12:16:06;USER;Re-owned sensor url rest_tcp://https/192.168.42.10:443 restTcp set terminalId to 21153620,
+2024-12-04 12:16:58;SYSTEM;Calibration information update for parameter "Fingerprint".
+
+2024-12-04 12:17:42;SYSTEM;Measurement suspended.
+2024-12-04 12:28:41;SYSTEM;Measurement resumed.
+2024-12-04 12:28:42;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 52 seconds.
+2024-12-04 12:28:42;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400210","version":"4.60 4.2-12","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-12-04T09:09:53.542Z"}
+2024-12-04 12:30:04;USER;Re-owned sensor url rest_tcp://https/192.168.42.10:443 restTcp set terminalId to 21153620,
+2024-12-04 12:30:59;SYSTEM;Calibration information update for parameter "NO2-Neq".
+
+2024-12-04 12:30:59;SYSTEM;Calibration information update for parameter "NO3-Neq".
+
+2024-12-04 12:31:00;SYSTEM;Calibration information update for parameter "TOCeq".
+
+2024-12-04 12:31:00;SYSTEM;Calibration information update for parameter "TURBest - FTU (39)".
+
+2024-12-04 13:04:46;USER;User "Administrator" from 127.0.0.1 logged out.
+2024-12-04 21:15:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1175 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-05 13:49:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1182 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-06 06:23:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1188 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-06 22:57:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1195 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-07 15:31:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1201 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-08 08:05:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1208 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-09 00:39:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1215 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-09 17:13:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1222 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-10 09:47:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1228 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-11 02:21:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1235 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-11 13:16:59;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-12-11 14:18:55;SYSTEM;Login of user "Administrator" timed out.
+2024-12-11 18:55:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1242 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-12 07:00:28;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-12-12 07:08:49;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 50 seconds.
+2024-12-12 07:11:08;SYSTEM;Measurement suspended.
+2024-12-12 07:11:16;SYSTEM;Measurement resumed.
+2024-12-12 07:11:17;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 17 seconds.
+2024-12-12 07:11:17;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400210","version":"4.60 4.2-12","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-12-04T09:09:53.542Z"}
+2024-12-12 08:12:56;SYSTEM;Login of user "Administrator" timed out.
+2024-12-12 11:31:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1248 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-13 04:05:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1255 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-13 20:39:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1262 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-14 13:13:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1268 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-15 05:47:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1275 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-15 22:21:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1282 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-16 14:55:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1288 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-17 07:29:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1295 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-18 00:03:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1302 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-18 16:37:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1308 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-19 09:11:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1315 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-20 01:45:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1322 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-20 18:19:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1329 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-21 10:53:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1335 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-22 03:27:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1342 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-22 20:01:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1349 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-23 12:35:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1355 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-23 13:57:48;SYSTEM;Received SMS from 6700
+2024-12-23 13:57:48;SYSTEM;Remote command not implemented
+2024-12-23 13:57:54;SYSTEM;Received SMS from 677
+2024-12-23 13:57:54;SYSTEM;Remote command not implemented
+2024-12-23 14:00:09;SYSTEM;Sending reply SMS failed
+2024-12-24 05:09:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1362 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-24 21:43:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1369 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-25 14:17:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1375 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-26 06:51:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1382 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-26 23:25:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1389 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-27 15:59:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1395 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-28 08:33:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1402 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-29 01:07:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1409 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-29 17:41:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1416 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-30 00:13:06;CRITICAL;GSM_GetNetworkInfo failed with error code 14, SMSHandler restarted
+2024-12-30 10:15:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1422 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-31 02:49:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1429 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-12-31 19:23:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1436 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-01 11:57:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1442 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-02 04:31:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1449 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-02 14:19:15;SYSTEM;Received SMS from 6700
+2025-01-02 14:19:15;SYSTEM;Remote command not implemented
+2025-01-02 14:19:35;SYSTEM;Received SMS from 677
+2025-01-02 14:19:35;SYSTEM;Remote command not implemented
+2025-01-02 14:19:40;SYSTEM;Sending reply SMS failed
+2025-01-02 21:05:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1456 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-03 13:39:03;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1462 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-04 06:13:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1469 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-04 22:47:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1476 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-05 15:21:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1482 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-06 07:55:06;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1489 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-07 00:29:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1496 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-07 17:03:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1502 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-08 09:37:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1509 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-09 02:11:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1516 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-09 15:24:18;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-01-09 16:42:55;SYSTEM;Login of user "Administrator" timed out.
+2025-01-09 18:45:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1522 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-10 11:19:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1529 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-11 03:53:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1536 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-11 20:27:06;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1543 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-12 13:01:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1549 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-13 05:35:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1556 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-13 13:46:51;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-01-13 13:55:48;SYSTEM;Measurement suspended.
+2025-01-13 13:56:00;SYSTEM;Measurement resumed.
+2025-01-13 13:56:05;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 67 seconds.
+2025-01-13 13:56:05;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400210","version":"4.60 4.2-12","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-12-04T09:09:53.542Z"}
+2025-01-13 14:56:55;SYSTEM;Login of user "Administrator" timed out.
+2025-01-13 22:11:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1563 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-14 09:46:24;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-01-14 09:46:31;SYSTEM;Measurement suspended.
+2025-01-14 10:21:39;SYSTEM;Measurement resumed.
+2025-01-14 10:21:39;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 87 seconds.
+2025-01-14 10:21:39;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400210","version":"4.60 4.2-12","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-12-04T09:09:53.542Z"}
+2025-01-14 10:56:05;USER;User "Administrator" from 127.0.0.1 logged out.
+2025-01-14 15:21:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1569 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-15 07:54:11;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-01-15 07:54:20;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 50 seconds.
+2025-01-15 07:56:21;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1576 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-15 08:56:56;SYSTEM;Login of user "Administrator" timed out.
+2025-01-16 00:31:06;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1583 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-16 17:05:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1589 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-17 09:39:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1596 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-18 02:13:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1603 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-18 18:47:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1610 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-19 11:21:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1616 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-20 03:55:06;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1623 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-20 20:29:06;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1630 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-21 13:03:06;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1636 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-22 05:37:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1643 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-22 22:11:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1650 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-23 14:45:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1656 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-24 07:19:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1663 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-24 09:51:11;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-01-24 10:52:55;SYSTEM;Login of user "Administrator" timed out.
+2025-01-24 23:53:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1670 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-25 16:27:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1676 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-26 09:01:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1683 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-27 01:35:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1690 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-27 13:00:38;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-01-27 13:46:37;USER;User "Administrator" from 127.0.0.1 logged out.
+2025-01-27 15:06:31;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-01-27 15:32:24;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-01-27 17:50:56;SYSTEM;Login of user "Administrator" timed out.
+2025-01-27 18:09:06;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1696 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-28 07:35:16;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-01-28 08:52:56;SYSTEM;Login of user "Administrator" timed out.
+2025-01-28 10:43:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1703 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-29 03:17:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1710 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-29 16:05:45;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-01-29 17:06:57;SYSTEM;Login of user "Administrator" timed out.
+2025-01-29 19:51:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1717 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-30 11:13:28;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-01-30 11:34:33;SYSTEM;Measurement suspended.
+2025-01-30 11:36:09;SYSTEM;Measurement resumed.
+2025-01-30 11:36:10;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 56 seconds.
+2025-01-30 11:36:10;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400210","version":"4.60 4.2-12","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"JET","reference_index":"00000002","reference_date":"2024-12-04T09:09:53.542Z"}
+2025-01-30 11:38:06;USER;Re-owned sensor url rest_tcp://https/192.168.42.10:443 restTcp set terminalId to 21153620,
+2025-01-30 12:07:11;USER;User "Administrator" from 127.0.0.1 logged out.
+2025-01-30 12:29:06;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1723 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-30 13:47:14;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-01-30 14:18:10;USER;User "Administrator" from 127.0.0.1 logged out.
+2025-01-31 05:03:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1730 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-01-31 21:37:06;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1737 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-02-01 14:11:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1743 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-02-02 06:45:06;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1750 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-02-02 23:19:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1757 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-02-03 14:33:36;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-02-03 15:34:56;SYSTEM;Login of user "Administrator" timed out.
+2025-02-03 15:53:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1763 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-02-04 08:27:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1770 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-02-04 11:21:44;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-02-04 12:22:56;SYSTEM;Login of user "Administrator" timed out.
+2025-02-04 15:33:02;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-02-04 16:34:55;SYSTEM;Login of user "Administrator" timed out.
+2025-02-04 17:04:45;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-02-04 18:10:55;SYSTEM;Login of user "Administrator" timed out.
+2025-02-05 01:01:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1777 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-02-05 17:35:05;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1783 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-02-06 10:09:06;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1790 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-02-06 10:35:17;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-02-06 11:36:57;SYSTEM;Login of user "Administrator" timed out.
+2025-02-07 02:43:04;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 1797 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2025-02-07 19:17:45;SYSTEM;gc.exe: Database garbage collection for data older than 2024-06-24T22:22:01Z done. Deleted 14400 parameter measurement data rows
+2025-02-07 19:17:45;SYSTEM;gc.exe: 14400 entries of backend database have been cleaned.
+2025-02-07 19:19:36;SYSTEM;gc.exe: 13787 entries of frontend database have been cleaned.
+2025-02-08 11:53:47;SYSTEM;gc.exe: Database garbage collection for data older than 2024-06-26T08:40:01Z done. Deleted 14406 parameter measurement data rows
+2025-02-08 11:53:47;SYSTEM;gc.exe: 14406 entries of backend database have been cleaned.
+2025-02-08 11:55:32;SYSTEM;gc.exe: 13187 entries of frontend database have been cleaned.
+2025-02-09 04:25:51;SYSTEM;gc.exe: Database garbage collection for data older than 2024-06-27T18:58:01Z done. Deleted 14406 parameter measurement data rows
+2025-02-09 04:25:51;SYSTEM;gc.exe: 14406 entries of backend database have been cleaned.
+2025-02-09 04:27:55;SYSTEM;gc.exe: 13240 entries of frontend database have been cleaned.
+2025-02-09 20:59:44;SYSTEM;gc.exe: Database garbage collection for data older than 2024-06-29T05:16:01Z done. Deleted 14406 parameter measurement data rows
+2025-02-09 20:59:44;SYSTEM;gc.exe: 14406 entries of backend database have been cleaned.
+2025-02-09 21:01:19;SYSTEM;gc.exe: 12759 entries of frontend database have been cleaned.
+2025-02-10 13:33:46;SYSTEM;gc.exe: Database garbage collection for data older than 2024-06-30T15:34:01Z done. Deleted 14406 parameter measurement data rows
+2025-02-10 13:33:46;SYSTEM;gc.exe: 14406 entries of backend database have been cleaned.
+2025-02-10 13:35:38;SYSTEM;gc.exe: 12794 entries of frontend database have been cleaned.
+2025-02-11 06:07:49;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-01T23:34:01Z done. Deleted 14408 parameter measurement data rows
+2025-02-11 06:07:49;SYSTEM;gc.exe: 14408 entries of backend database have been cleaned.
+2025-02-11 06:09:39;SYSTEM;gc.exe: 12900 entries of frontend database have been cleaned.
+2025-02-11 22:39:48;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-03T00:50:01Z done. Deleted 14402 parameter measurement data rows
+2025-02-11 22:39:49;SYSTEM;gc.exe: 14402 entries of backend database have been cleaned.
+2025-02-11 22:41:48;SYSTEM;gc.exe: 13107 entries of frontend database have been cleaned.
+2025-02-12 15:13:47;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-04T02:06:01Z done. Deleted 14402 parameter measurement data rows
+2025-02-12 15:13:47;SYSTEM;gc.exe: 14402 entries of backend database have been cleaned.
+2025-02-12 15:15:23;SYSTEM;gc.exe: 13067 entries of frontend database have been cleaned.
+2025-02-13 07:47:49;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-05T03:26:01Z done. Deleted 14402 parameter measurement data rows
+2025-02-13 07:47:49;SYSTEM;gc.exe: 14402 entries of backend database have been cleaned.
+2025-02-13 07:49:34;SYSTEM;gc.exe: 13004 entries of frontend database have been cleaned.
+2025-02-13 15:26:06;CRITICAL;CRESTHelper::Get(): curl_easy_perform() failed (url= rest_tcp://https/192.168.42.10:443, name= restTcp, start_url= https://192.168.42.10:443/api/v1.0/Login ret= Couldn't connect to server (0).
+2025-02-14 00:20:03;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-06T04:44:01Z done. Deleted 14404 parameter measurement data rows
+2025-02-14 00:20:03;SYSTEM;gc.exe: 14404 entries of backend database have been cleaned.
+2025-02-14 00:22:11;SYSTEM;gc.exe: 13128 entries of frontend database have been cleaned.
+2025-02-14 16:53:52;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-07T06:00:01Z done. Deleted 14402 parameter measurement data rows
+2025-02-14 16:53:52;SYSTEM;gc.exe: 14402 entries of backend database have been cleaned.
+2025-02-14 16:55:58;SYSTEM;gc.exe: 13106 entries of frontend database have been cleaned.
+2025-02-15 09:27:51;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-08T07:16:01Z done. Deleted 14402 parameter measurement data rows
+2025-02-15 09:27:51;SYSTEM;gc.exe: 14402 entries of backend database have been cleaned.
+2025-02-15 09:29:38;SYSTEM;gc.exe: 13017 entries of frontend database have been cleaned.
+2025-02-16 01:59:48;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-09T08:32:01Z done. Deleted 14402 parameter measurement data rows
+2025-02-16 01:59:49;SYSTEM;gc.exe: 14402 entries of backend database have been cleaned.
+2025-02-16 02:01:35;SYSTEM;gc.exe: 13041 entries of frontend database have been cleaned.
+2025-02-16 18:33:50;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-10T09:48:01Z done. Deleted 14402 parameter measurement data rows
+2025-02-16 18:33:50;SYSTEM;gc.exe: 14402 entries of backend database have been cleaned.
+2025-02-16 18:35:51;SYSTEM;gc.exe: 12963 entries of frontend database have been cleaned.
+2025-02-17 04:17:25;SYSTEM;Received SMS from 6700
+2025-02-17 04:17:25;SYSTEM;Remote command not implemented
+2025-02-17 04:17:31;SYSTEM;Received SMS from 677
+2025-02-17 04:17:31;SYSTEM;Remote command not implemented
+2025-02-17 04:19:47;SYSTEM;Sending reply SMS failed
+2025-02-17 11:05:49;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-11T11:04:01Z done. Deleted 14402 parameter measurement data rows
+2025-02-17 11:05:49;SYSTEM;gc.exe: 14402 entries of backend database have been cleaned.
+2025-02-17 11:07:50;SYSTEM;gc.exe: 13076 entries of frontend database have been cleaned.
+2025-02-18 03:39:49;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-12T11:32:41Z done. Deleted 14407 parameter measurement data rows
+2025-02-18 03:39:49;SYSTEM;gc.exe: 14407 entries of backend database have been cleaned.
+2025-02-18 03:41:43;SYSTEM;gc.exe: 13113 entries of frontend database have been cleaned.
+2025-02-18 19:45:30;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2025-02-18 20:13:47;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-13T08:42:01Z done. Deleted 14404 parameter measurement data rows
+2025-02-18 20:13:47;SYSTEM;gc.exe: 14404 entries of backend database have been cleaned.
+2025-02-18 20:15:24;SYSTEM;gc.exe: 10991 entries of frontend database have been cleaned.
+2025-02-18 20:46:56;SYSTEM;Login of user "Administrator" timed out.
+2025-02-19 12:47:46;SYSTEM;gc.exe: Database garbage collection for data older than 2024-07-14T09:58:01Z done. Deleted 14402 parameter measurement data rows
+2025-02-19 12:47:46;SYSTEM;gc.exe: 14402 entries of backend database have been cleaned.
+2025-02-19 12:49:36;SYSTEM;gc.exe: 12967 entries of frontend database have been cleaned.
+2025-02-20 00:38:38;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 85 seconds.
+2025-02-20 00:44:21;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 70 seconds.

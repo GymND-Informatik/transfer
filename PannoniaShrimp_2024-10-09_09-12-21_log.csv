@@ -1,0 +1,460 @@
+﻿[filetype:logbook]
+Timestamp;Log level;Log message
+2024-10-09 09:12:21;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-10-09 09:12:24;SYSTEM;Measurement suspended.
+2024-10-09 09:59:22;SYSTEM;NetworkHandler initialized
+2024-10-09 09:59:22;SYSTEM;[Init] Network Handler
+2024-10-09 09:59:22;SYSTEM;Writing initial configuration
+2024-10-09 09:59:36;SYSTEM;[Init] Modem Handler
+2024-10-09 09:59:36;SYSTEM;[Init] Display Handler
+2024-10-09 09:59:36;SYSTEM;[Init] Wifi Handler
+2024-10-09 09:59:36;SYSTEM;[Init] SMS Handler
+2024-10-09 09:59:44;SYSTEM;starting watchdog service
+2024-10-09 09:59:44;SYSTEM;s::can watchdog service started.
+2024-10-09 09:59:44;SYSTEM;estimated disk life time of storage disk: eMMC Firmware Version: 73103517%P
+eMMC Life Time Estimation A [EXT_CSD_DEVICE_LIFE_TIME_EST_TYP_A]: 0x01
+eMMC Life Time Estimation B [EXT_CSD_DEVICE_LIFE_TIME_EST_TYP_B]: 0x01
+eMMC Pre EOL information [EXT_CSD_PRE_EOL_INFO]: 0x01
+2024-10-09 09:59:44;SYSTEM;starting watchdog service
+2024-10-09 09:59:45;SYSTEM;starting training service
+2024-10-09 09:59:45;SYSTEM;s::can training service started.
+2024-10-09 09:59:46;SYSTEM;Measurement resumed.
+2024-10-09 09:59:46;SYSTEM;s::can soap service started.
+2024-10-09 09:59:56;SYSTEM;s::can scada service started with Version 4.7.4-131-g98c0ccdd.
+2024-10-09 09:59:59;SYSTEM;Model= D-330.
+2024-10-09 09:59:59;SYSTEM;serialNo= 3231313533363230 (21153620).
+2024-10-09 10:00:35;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":5.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-06-04 10:49:00"}
+2024-10-09 10:00:35;SYSTEM;UpdateStationThread(): Thread stopped.
+2024-10-09 10:00:35;SYSTEM;UpdateStationThread(): Thread started.
+2024-10-09 10:00:39;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:00:40;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 59 seconds.
+2024-10-09 10:01:05;SYSTEM;[Init] VPN Handler
+2024-10-09 10:01:05;SYSTEM;starting OpenVPN instance for profile OpenVPN_30000
+2024-10-09 10:01:05;SYSTEM;[Init] Firewall Handler
+2024-10-09 10:01:08;SYSTEM;VNC Service is now Disabled
+2024-10-09 10:01:09;SYSTEM;Entering SOAP Listener loop
+2024-10-09 10:01:46;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-10-09 10:01:51;SYSTEM;Measurement suspended.
+2024-10-09 10:04:30;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:30;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:31;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/2, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:31;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/1, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:31;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/1, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:31;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/2, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:32;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/3, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_ADDRESS).
+2024-10-09 10:04:32;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/3, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:32;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/2, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:32;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/2, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:32;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/3, name= oxi-soliV1, ret= MB_EX_ILLEGAL_FUNCTION).
+2024-10-09 10:04:32;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/4, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:33;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/4, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:33;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/4, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:33;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:33;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/5, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:34;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/6, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:34;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/6, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_VALUE).
+2024-10-09 10:04:34;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/7, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:34;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/7, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_ADDRESS).
+2024-10-09 10:04:34;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/7, name= oxi-soliV1, ret= MB_EX_ILLEGAL_FUNCTION).
+2024-10-09 10:04:34;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/8, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:35;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/8, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:35;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/8, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:35;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/8, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:35;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/9, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:35;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/9, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:36;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/9, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:36;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/9, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:36;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/10, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:36;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/10, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:36;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/10, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:37;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/10, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:37;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/11, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:37;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/11, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:37;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/11, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:38;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/11, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:38;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/12, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:38;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/12, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:38;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/12, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:38;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/12, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:39;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/13, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:39;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/13, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:39;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/13, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:39;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/13, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:39;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/14, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:40;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/14, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:40;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/14, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:40;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/14, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:40;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/15, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:41;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/15, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:41;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/15, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:41;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/15, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:41;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/16, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:41;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/16, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:42;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/16, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:42;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/16, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:42;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/17, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:42;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/17, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:43;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/17, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:43;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/17, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:43;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/18, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:43;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/18, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:43;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/18, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:44;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/18, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:44;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/19, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:44;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/19, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:44;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/19, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:44;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/19, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:45;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/20, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:45;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/20, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:45;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/20, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:45;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/20, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:46;CRITICAL;CRESTHelper::Get(): curl_easy_perform() failed (url= rest_tcp://https/, name= restTcp, start_url= https://:443/api/v1.0/Login ret= Couldn't resolve host name (0).
+2024-10-09 10:04:46;CRITICAL;CRESTHelper::Get(): curl_easy_perform() failed (url= rest_tcp://https/, name= restTcp, start_url= https://:443/api/v1.0/Login ret= Couldn't resolve host name (0).
+2024-10-09 10:04:47;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:47;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:48;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/1, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:48;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:58;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:58;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:59;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/1, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:59;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/1, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:59;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/2, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:59;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/2, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:04:59;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/2, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:00;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/2, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:00;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/3, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:00;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/3, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:00;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/3, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:00;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/3, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:01;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:01;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:01;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/4, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:01;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:02;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/5, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:02;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/5, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:02;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/5, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:02;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/5, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:02;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/6, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:03;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/6, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:03;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/6, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:03;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/6, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:03;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/7, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:03;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/7, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:04;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/7, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:04;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/7, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:04;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/8, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:04;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/8, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:05;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/8, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:05;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/8, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:05;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/9, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:05;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/9, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:05;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/9, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:06;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/9, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:06;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/10, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:06;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/10, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:06;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/10, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:07;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/11, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:07;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/10, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:07;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/11, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:07;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/11, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:07;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/11, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:08;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/12, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:08;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/12, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:08;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/12, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:08;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/12, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:08;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/13, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:09;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/13, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:09;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/13, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:09;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/13, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:09;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/14, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:10;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/14, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:10;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/14, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:10;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/14, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:10;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/15, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:10;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/15, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:11;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/15, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:11;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/15, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:11;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/16, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:11;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/16, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:12;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/16, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:12;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/16, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:12;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/17, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:12;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/17, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:12;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/17, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:13;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/17, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:13;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/18, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:13;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/18, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:13;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/18, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:13;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/18, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:14;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/19, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:14;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/19, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:14;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/19, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:14;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/19, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:15;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/20, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:15;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/20, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:15;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://1/20, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:15;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/20, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:17;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:17;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:17;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/1, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:17;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/1, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:18;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/2, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:18;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/2, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:18;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/2, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:18;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/2, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:19;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/3, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:19;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/3, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:19;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/3, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:19;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/3, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:19;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/4, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:20;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/4, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:20;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/4, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:20;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:20;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/5, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:20;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/5, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:21;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/5, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:21;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/5, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:21;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/6, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:21;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/6, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:22;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/6, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:22;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/6, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:22;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/7, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:22;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/7, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:22;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/7, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:23;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/7, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:23;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/8, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:23;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/8, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:23;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/8, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:24;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/8, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:24;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/9, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:24;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/9, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:24;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/9, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:24;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/9, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:25;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/10, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:25;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/10, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:25;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/10, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:25;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/10, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:25;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/11, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:26;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/11, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:26;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/11, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:26;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/11, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:26;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/12, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:27;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/12, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:27;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/12, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:27;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/12, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:27;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/13, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:27;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/13, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:28;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/13, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:28;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/13, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:28;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/14, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:28;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/14, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:29;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/14, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:29;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/14, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:29;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/15, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:29;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/15, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:29;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/15, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:30;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/15, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:30;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/16, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:30;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/16, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:30;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/16, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:30;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/16, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:31;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/17, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:31;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/17, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:31;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/17, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:31;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/17, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:32;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/18, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:32;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/18, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:32;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/18, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:32;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/18, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:32;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/19, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:33;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/19, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:33;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/19, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:33;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/19, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:33;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/20, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:34;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/20, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:34;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://5/20, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:34;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://5/20, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:38;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/3, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:38;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/3, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_ADDRESS).
+2024-10-09 10:05:38;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/3, name= oxi-soliV1, ret= MB_EX_ILLEGAL_FUNCTION).
+2024-10-09 10:05:42;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/5, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:46;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/6, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:46;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/6, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_VALUE).
+2024-10-09 10:05:49;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/7, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:05:50;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/7, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_ADDRESS).
+2024-10-09 10:05:50;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/7, name= oxi-soliV1, ret= MB_EX_ILLEGAL_FUNCTION).
+2024-10-09 10:08:35;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/7, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-09 10:08:35;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/7, name= conduV2, start= 1319, n= 8, ret= MB_EX_ILLEGAL_DATA_ADDRESS).
+2024-10-09 10:08:35;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/7, name= oxi-soliV1, ret= MB_EX_ILLEGAL_FUNCTION).
+2024-10-09 10:08:38;SYSTEM;Calibration information built for parameter "ORP".
+
+2024-10-09 10:08:38;SYSTEM;Calibration information built for parameter "ORP-mV".
+
+2024-10-09 10:08:38;SYSTEM;Calibration information built for parameter "Temp.".
+
+2024-10-09 10:08:41;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 10:09:01;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 11:13:45;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 11:14:01;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 11:15:50;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 11:19:55;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 11:21:05;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 11:22:38;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 11:24:53;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 11:29:02;SYSTEM;Measurement resumed.
+2024-10-09 11:29:03;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 39 seconds.
+2024-10-09 11:29:03;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":5.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-06-04 10:49:00"}
+2024-10-09 11:29:21;SYSTEM;Measurement suspended.
+2024-10-09 11:30:26;SYSTEM;Measurement resumed.
+2024-10-09 11:30:27;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 74 seconds.
+2024-10-09 11:30:27;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":5.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-06-04 10:49:00"}
+2024-10-09 11:37:42;SYSTEM;Measurement suspended.
+2024-10-09 11:38:36;SYSTEM;Measurement resumed.
+2024-10-09 11:38:37;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+2024-10-09 11:38:37;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 64 seconds.
+2024-10-09 11:39:30;SYSTEM;Measurement suspended.
+2024-10-09 11:39:33;SYSTEM;Measurement resumed.
+2024-10-09 11:39:34;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 7 seconds.
+2024-10-09 11:39:34;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+2024-10-09 11:40:57;SYSTEM;Calibration information update for parameter "Temp.".
+
+2024-10-09 11:47:06;SYSTEM;Measurement suspended.
+2024-10-09 11:47:19;SYSTEM;Measurement resumed.
+2024-10-09 11:47:19;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 22 seconds.
+2024-10-09 11:47:20;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+2024-10-09 12:19:27;USER;User "Administrator" from 127.0.0.1 logged out.
+2024-10-09 12:51:31;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-10-09 12:51:43;SYSTEM;Measurement suspended.
+2024-10-09 12:52:10;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://1/4, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-09 12:54:04;SYSTEM;Measurement resumed.
+2024-10-09 12:54:05;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 96 seconds.
+2024-10-09 12:54:05;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+2024-10-09 12:56:57;SYSTEM;Calibration information update for parameter "Turbid.".
+
+2024-10-09 13:54:56;SYSTEM;Login of user "Administrator" timed out.
+2024-10-10 11:33:00;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 671 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-10-11 11:33:00;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 677 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-10-12 11:32:59;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 684 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-10-13 11:33:01;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 690 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-10-14 11:33:01;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 696 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-10-15 11:33:01;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 702 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-10-16 11:33:00;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 709 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-10-17 11:33:00;SYSTEM;gc.exe: Database size limit for garbage collection not yet reached (size= 715 MiBytes, limit= 1800 MiBytes). Only 'VACUUM' and 'ANALYZE' executed.
+2024-10-18 09:25:53;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-10-18 09:25:56;SYSTEM;Measurement suspended.
+2024-10-18 09:59:21;USER;User "Administrator" from 127.0.0.1 logged out.
+2024-10-18 09:59:21;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 20 seconds.
+2024-10-18 09:59:21;SYSTEM;Measurement resumed.
+2024-10-18 09:59:21;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+2024-10-18 09:59:51;USER;CSecurity::GetLock(): User "Administrator" logged in (read-write access).
+2024-10-18 09:59:55;SYSTEM;Measurement suspended.
+2024-10-18 10:04:12;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-18 10:04:13;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/1, name= conduV2, start= 1319, n= 8, ret= MB_ETIMEDOUT).
+2024-10-18 10:04:13;CRITICAL;CModbusHelper::ReportSlaveID(): eMBMReportSlaveID() failed (url= modbus_rtu://4/1, name= oxi-soliV1, ret= MB_ETIMEDOUT).
+2024-10-18 10:04:13;CRITICAL;CModbusHelper::ReadInputRegisters(): eMBMReadInputRegisters() failed (url= modbus_rtu://4/1, name= scangeneric, start= 0, n= 3, ret= MB_ETIMEDOUT).
+2024-10-18 10:04:58;SYSTEM;Calibration information built for parameter "Temperature - °C (26)".
+
+2024-10-18 10:04:59;SYSTEM;Calibration information built for parameter "Ozone".
+
+2024-10-18 10:04:59;SYSTEM;Calibration information built for parameter "TOCeq".
+
+2024-10-18 10:04:59;SYSTEM;Calibration information built for parameter "UV254t".
+
+2024-10-18 10:04:59;SYSTEM;Calibration information built for parameter "HS-".
+
+2024-10-18 10:04:59;SYSTEM;Calibration information built for parameter "NO2eq".
+
+2024-10-18 10:05:00;SYSTEM;Calibration information built for parameter "NO3eq".
+
+2024-10-18 10:05:00;SYSTEM;Calibration information built for parameter "TURBest - FTU (39)".
+
+2024-10-18 10:11:26;SYSTEM;Measurement resumed.
+2024-10-18 10:11:26;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 15 seconds.
+2024-10-18 10:11:26;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400210","version":"4.60 3.14-4","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"production_water","reference_index":"00000001","reference_date":"2024-10-17T06:32:58.262Z"}
+2024-10-18 10:11:29;SYSTEM;Measurement suspended.
+2024-10-18 10:11:49;SYSTEM;Measurement resumed.
+2024-10-18 10:11:52;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400210","version":"4.60 3.14-4","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"production_water","reference_index":"00000001","reference_date":"2024-10-17T06:32:58.262Z"}
+2024-10-18 10:11:52;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 13 seconds.
+2024-10-18 10:17:01;SYSTEM;Measurement suspended.
+2024-10-18 10:21:06;SYSTEM;Measurement resumed.
+2024-10-18 10:21:09;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 36 seconds.
+2024-10-18 10:21:09;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400210","version":"4.60 3.14-4","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"production_water","reference_index":"00000001","reference_date":"2024-10-17T06:32:58.262Z"}
+2024-10-18 10:25:42;SYSTEM;Measurement suspended.
+2024-10-18 10:29:48;SYSTEM;Measurement resumed.
+2024-10-18 10:29:49;SYSTEM;MeasurementLoop: measure is already overdue, start cleaning after 112 seconds.
+2024-10-18 10:29:49;SYSTEM;Installed sensors:
+{"display_name":"cond 22371200","internal_name":"cond 22371200","url":"modbus_rtu://4/5","sn":"22371200","version":"243590-1111 CONUM034","model":"condu::lyser"}
+{"display_name":"ise 24181400","internal_name":"ise 14360002","url":"modbus_rtu://4/3","sn":"24181400","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"ise 20251300","internal_name":"ise 20251300","url":"modbus_rtu://4/7","sn":"20251300","version":"0102 010M","model":"ise::lyser"}
+{"display_name":"oxi 11923","internal_name":"oxi 11923","url":"modbus_rtu://4/6","sn":"11923","version":"31 2","model":"oxi::lyser"}
+{"display_name":"Luftdruck","internal_name":"Sensor_1","url":"constat_ai://3/17","sn":"","version":" ","model":"intern-mA-IN"}
+{"display_name":"spec 23510000","internal_name":"spec 23510000","url":"modbus_rtu://1/4","sn":"23510000","version":"0100 0134","model":"spectro::lyser","detector":"uv/vis","pathlength":35.0,"pathlength_unit":"mm","global_calib":"RIV615NNV200","reference":"DIST_H2O","reference_index":"2","reference_date":"2024-10-09 10:50:00"}
+{"display_name":"spec 24400210","internal_name":"spec 24400210","url":"rest_tcp://https/192.168.42.10:443","sn":"24400210","version":"4.60 3.14-4","model":"spectro::lyser V3.0","detector":"uv","pathlength":35.0,"pathlength_unit":"mm","global_calib":"GEN_UV_FINGERPRINT-60_ABS-M_SCAN_001","reference":"production_water","reference_index":"00000001","reference_date":"2024-10-17T06:32:58.262Z"}
