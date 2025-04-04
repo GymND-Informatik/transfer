@@ -93,6 +93,64 @@ def store_fp_file_in_db(csv_file):
 
     print(f"Data from file {csv_file} inserted successfully!")
 
+
+def store_par_file_in_db(csv_file):
+    df = pd.read_csv(csv_file, skiprows=[0], header=None, sep=";", low_memory=False)
+    df = df.iloc[:, ::2]
+    df.iloc[2:, 2:] = df.iloc[2:, 2:].astype(float)   # Convert remaining columns to float
+    column_names = df.iloc[0].tolist()
+    timestamps = df.iloc[:, 0].tolist()
+    
+    print(column_names)
+    print(df)
+    
+    table_name = "par_"
+
+    # Extract date and time
+    date_match = re.search(r'\d{4}-\d{2}-\d{2}', csv_file)
+    time_match = re.search(r'\d{2}-\d{2}-\d{2}', csv_file)
+
+    if date_match and time_match:
+        date_str = date_match.group().replace('-', '_')
+        time_str = time_match.group().replace('-', '_')
+        table_name += f"{date_str}_{time_str}"
+
+
+    print(table_name)
+    # Create database connection
+    conn = psycopg2.connect(**DB_PARAMS)
+    cur = conn.cursor()
+    # Create table dynamically
+    create_table_query = f"""
+    CREATE TABLE IF NOT EXISTS {table_name} (
+        "{column_names[0]}" TIMESTAMP PRIMARY KEY,
+        {", ".join(f'"{col}" DOUBLE PRECISION' for col in column_names[1:])}
+    );
+    """
+
+    cur.execute(create_table_query)
+    conn.commit()
+
+
+    # Insert data
+    insert_query = sql.SQL(f"""
+        INSERT INTO {table_name} ({", ".join(f'"{col}"' for col in column_names)})
+        VALUES ({", ".join(["%s"] * len(column_names))})
+        ON CONFLICT ("{column_names[0]}") DO NOTHING;
+    """)
+
+
+    for i, row in enumerate(df.itertuples(index=False, name=None)):
+        if i == 0:
+            continue
+        cur.execute(insert_query, row)
+    
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    print(f"Data from file {csv_file} inserted successfully!")
+
 def get_all_file_paths(directory):
     # Get absolute paths of all files in the specified directory
     file_paths = [os.path.abspath(os.path.join(directory, file)) 
@@ -107,7 +165,11 @@ for file in all_files:
     if file.endswith("_fp.csv"):
         fp_files.append(file)
 
-print(fp_files)
-
+#print(fp_files)
+fp_files = []
 for file in fp_files:
     store_fp_file_in_db(file)
+
+
+
+store_par_file_in_db("PannoniaShrimp_2024-09-04_09-34-00_par.csv")
